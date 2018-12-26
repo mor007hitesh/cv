@@ -102,19 +102,19 @@
     border:0;
     border-radius:15px;
     color:white;
-    font-size:2.0rem;
+    font-size:1.8rem;
     height:60px;
     -webkit-text-shadow:2px 2px 2px black;
     -moz-text-shadow:2px 2px 2px black;
     text-shadow:2px 2px 2px black;
-    width:250px;
+    width:200px;
   }
   .button:hover{
     background:green;
     -webkit-box-shadow: 0 5px 5px 0 gray;
     -moz-box-shadow: 0 5px 5px 0 gray;
     box-shadow: 0 5px 5px 0 gray;
-    font-size:2.2rem;
+    font-size:2.0rem;
     -webkit-text-shadow:5px 4px 4px rgba(219,45,67,0.8);
     -moz-text-shadow:5px 4px 4px rgba(219,45,67,0.8);
     text-shadow:5px 4px 4px rgba(219,45,67,0.8);
