@@ -96,7 +96,8 @@
   }
   .field{
     margin:50px auto;
-    width:30%;
+    width:50%;
+    font-size:0.9rem;
   }
   .button{
     margin:50px auto auto;
