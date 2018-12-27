@@ -121,6 +121,8 @@ body{
   height:250px;
   text-align:center;
 }
+.container-bottom p{
+  margin-bottom:0;
 .links{
   padding:40px;
 }
