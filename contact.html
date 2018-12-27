@@ -1,33 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hiesh's Personal Site</title>
+  <meta charset="utf-8" />
+  <link rel="icon" href="images/approved.png" />
+  <title>Hitesh's Personal Site</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+  <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
   </head>
   <body>
-    <h1>Contact Me Here:</h1>
-    <fieldset>
-      <legend>
-        Contact Details
-        </legend>
-        Name:Hitesh<br />
-        E-mail:mor007hitesh00@gmail.com<br />
-        Address:Sonipat, Haryana <b>INDIA</b><br />
-        Contact No.:9998889988
-      </fieldset>
-      <h3>Leave a Message:</h3>
-      <form action="mailto:mor007hitesh00@gmail.com?subject=Github Resume" method="post" enctype="text/plain">
-        <lable>Name:</lable>
-        <input type="text" name="name" required/><br /><br />
-        <lable>Email:</lable>
-        <input type="email" name="Email" required /><br /><br />
-        <lable>Your Message:</lable><br />
-        <textarea name="Message" rows="10" cols="22">Type Here</textarea><br /><br />
-        <input type="checkbox" name="maillist" value="1" />
-        <lable>Do you want to opt for mail updates from our Website.</lable><br /><br />
-        <input type="submit" value="Submit" />
-        </form><br>
-    <a href="tel:9992173199">Call Me</a>
+    <div class="container-top">
+      <img class="cloud1" src="images/cloud.png" alt="Cloud" />
+      <h1>I'm Hitesh.</h1>
+      <h2>
+        A Front-end Web Developer.
+      </h2>
+        <img class="cloud2" src="images/cloud.png" alt="Cloud" />
+        <img class="mountain" src="images/mountain.png" alt="Mountain" />
+      </div>
+      <div class="container-middle">
+        <div class="form">
+          <h2 style="text-align:center;">Contact Me</h2>
+          <form name="Contact-form" method="post">
+            <label for="name">Name</label><br />
+            <input type="text" name="name" required /><br />
+            <label for="email">E-mail</label><br />
+            <input type="email" name="email" required /><br />
+            <label for="reason">Reason to Contact</label><br />
+            <input type="radio" name="reason" value="Job Offer" />&nbsp;&nbsp;Job Offer &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="reason" value="Casual" />&nbsp;&nbsp;Casual<br />
+            <label for="CName">Company Name</label><br />
+            <input type="text" name="CName" /><br />
+            <label for="ContactNo">Contact Number</label><br />
+            <input type="number" name="ContactNo" placeholder="Company Contact No."/><br />
+            <label for="website">Website</label><br />
+            <input type="url" name="website" placeholder="If Any"/><br />
+            <label for="message">Your Message</label><br />
+            <textarea name="message" placeholder="Your Message"></textarea><br />
+            <button name="submit" type="submit" class="button" formaction="index.html">SEND</button>
+            </form>
+          </div>
+      </div>
+      <div class="container-bottom">
+        <div class="links">
+         <a href="https://www.facebook.com/profile.php?id=100003493194890" target="_blank">Facebook</a>
+         <a href="https://www.linkedin.com/in/hitesh-hitesh-36b408177/" target="_blank">LinkdIN</a>
+         <a href="#_">Website</a>
+        </div>
+        <p>
+          &copy; 2018 Hitesh @ ABC<br /><br />
+          <a href="index.html" class="link-bottom">Go To Home Page</a>
+        </p>
+      </div>
     </body>
 </html>

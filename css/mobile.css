@@ -105,22 +105,34 @@
     border:0;
     border-radius:15px;
     color:white;
-    font-size:1.4rem;
+    font-size:1.2rem;
     height:60px;
     -webkit-text-shadow:2px 2px 2px black;
     -moz-text-shadow:2px 2px 2px black;
     text-shadow:2px 2px 2px black;
-    width:200px;
+    width:180px;
   }
   .button:hover{
     background:green;
     -webkit-box-shadow: 0 5px 5px 0 gray;
     -moz-box-shadow: 0 5px 5px 0 gray;
     box-shadow: 0 5px 5px 0 gray;
-    font-size:1.6rem;
+    font-size:1.4rem;
     -webkit-text-shadow:5px 4px 4px rgba(219,45,67,0.8);
     -moz-text-shadow:5px 4px 4px rgba(219,45,67,0.8);
     text-shadow:5px 4px 4px rgba(219,45,67,0.8);
+  }
+  .form{
+    width:100%;
+    margin:15px auto 50px auto;;
+   text-align: left;
+  }
+  .form form{
+    margin:auto;
+    color:#11999E;
+    font-size:1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left:20%;
   }
 
   /*    Style for Container-Bottom    */
