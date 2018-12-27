@@ -43,7 +43,7 @@ body{
 .container-middle h2{
   color:#66BFBF;
   font-size: 2.5rem;
-  font-family:'Roboto', sans-serif;
+  font-family:Roboto;
 }
 .container-middle h3{
   color:#11999E;
@@ -121,8 +121,6 @@ body{
   height:250px;
   text-align:center;
 }
-.container-bottom p{
-  margin-bottom:0;
 .links{
   padding:40px;
 }

@@ -51,7 +51,7 @@
   .container-middle h2{
     color:#66BFBF;
     font-size: 2.5rem;
-    font-family:'Roboto', sans-serif;
+    font-family:
   }
   .container-middle h3{
     color:#11999E;
@@ -97,7 +97,7 @@
   .field{
     margin:50px auto;
     width:50%;
-    font-size:0.9rem;
+    font-size:0.8rem;
   }
   .button{
     margin:50px auto auto;
@@ -130,6 +130,10 @@
     height:auto;
     text-align:center;
   }
+  .container-bottom p{
+    margin:0;
+    padding-bottom:25px;
+  }
   .links{
     padding:40px;
   }
@@ -144,6 +148,10 @@
 
 }
 @media only screen and (min-width:769px) and (max-width:1200px){
+  .container-bottom p{
+    margin:0px;
+    padding-bottom:25px;
+  }
   .links a{
     margin-top:20px;
     display:block;
